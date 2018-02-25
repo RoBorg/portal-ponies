@@ -155,8 +155,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -180,8 +180,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 3328568}
-  m_LocalRotation: {x: -0.24994436, y: -0.3658167, z: 0.7402148, w: 0.50575495}
-  m_LocalPosition: {x: 18.660147, y: -2.1435828, z: -3.264772}
+  m_LocalRotation: {x: -0.4419928, y: -0.5345535, z: 0.55514973, w: 0.45902482}
+  m_LocalPosition: {x: 14.692045, y: -2.744423, z: 4.814979}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1965301452}
@@ -287,8 +287,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -312,8 +312,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 10160484}
-  m_LocalRotation: {x: -0.24994436, y: -0.3658167, z: 0.7402148, w: 0.50575495}
-  m_LocalPosition: {x: 18.660147, y: -2.1435828, z: -4.862772}
+  m_LocalRotation: {x: -0.4419928, y: -0.5345535, z: 0.55514973, w: 0.45902482}
+  m_LocalPosition: {x: 14.692045, y: -2.744423, z: 3.216979}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1965301452}
@@ -551,7 +551,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1735414698321250, guid: 16f8d3f5564e8d9419f62c06680a07b0, type: 2}
       propertyPath: m_Name
-      value: Orange Portal (1)
+      value: Dark Orange Portal
       objectReference: {fileID: 0}
     - target: {fileID: 23367688445436876, guid: 16f8d3f5564e8d9419f62c06680a07b0,
         type: 2}
@@ -563,6 +563,11 @@ Prefab:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23367688445436876, guid: 16f8d3f5564e8d9419f62c06680a07b0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a44f91a183f048429e6487aeef10d8c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16f8d3f5564e8d9419f62c06680a07b0, type: 2}
   m_IsPrefabParent: 0
@@ -869,8 +874,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -894,47 +899,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 73445071}
-  m_LocalRotation: {x: -0.74021477, y: -0.50575507, z: -0.24994445, w: -0.36581662}
-  m_LocalPosition: {x: -18.660147, y: -2.14359, z: 14.45077}
+  m_LocalRotation: {x: -0.5551497, y: -0.45902494, z: -0.44199288, w: -0.5345534}
+  m_LocalPosition: {x: -14.692044, y: -2.7444293, z: 6.371021}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1991687517}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &85338943
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 1032172144}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: 0.01
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &93715501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1103,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 288672011}
+  - {fileID: 1383706603}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1278,8 +1249,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1303,47 +1274,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148599945}
-  m_LocalRotation: {x: -0.74021477, y: -0.50575507, z: -0.24994445, w: -0.36581662}
-  m_LocalPosition: {x: -18.660147, y: -2.14359, z: 12.852771}
+  m_LocalRotation: {x: -0.5551497, y: -0.45902494, z: -0.44199288, w: -0.5345534}
+  m_LocalPosition: {x: -14.692044, y: -2.7444293, z: 4.7730207}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 1991687517}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &149212616
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 1032172144}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: -0.006
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &169437872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,6 +1535,40 @@ Transform:
   m_Father: {fileID: 577029671}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &214168584
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: -0.006
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &216800695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,40 +1928,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.32, y: 4.02, z: 1.98}
   m_Center: {x: 0, y: 0.34, z: 0}
---- !u!21 &288672011
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 634341313}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: 0.01
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &311790031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,8 +1970,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2058,8 +1995,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 311790031}
-  m_LocalRotation: {x: -0.74021477, y: -0.50575507, z: -0.24994445, w: -0.36581662}
-  m_LocalPosition: {x: -17.700148, y: 10.646409, z: 12.852771}
+  m_LocalRotation: {x: -0.5551497, y: -0.45902494, z: -0.44199288, w: -0.5345534}
+  m_LocalPosition: {x: -13.732044, y: 10.045572, z: 4.77302}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118353984}
@@ -2228,8 +2165,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2253,8 +2190,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 342342782}
-  m_LocalRotation: {x: 0.50575507, y: -0.7402147, z: -0.36581668, w: 0.2499445}
-  m_LocalPosition: {x: 14.660148, y: -4.7464094, z: 14.180199}
+  m_LocalRotation: {x: 0.45902488, y: -0.5551497, z: -0.5345534, w: 0.44199294}
+  m_LocalPosition: {x: 10.692044, y: -4.1455708, z: 6.1004477}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1898356272}
@@ -2700,8 +2637,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2725,8 +2662,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 439081020}
-  m_LocalRotation: {x: -0.74021477, y: -0.50575507, z: -0.24994445, w: -0.36581662}
-  m_LocalPosition: {x: -17.700148, y: 10.646409, z: 14.180199}
+  m_LocalRotation: {x: -0.5551497, y: -0.45902494, z: -0.44199288, w: -0.5345534}
+  m_LocalPosition: {x: -13.732044, y: 10.045572, z: 6.100447}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 118353984}
@@ -2821,40 +2758,6 @@ Transform:
   m_Father: {fileID: 1084057052}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &468543174
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 749115425}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: 0.01
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &474297434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,6 +3026,40 @@ Transform:
   m_Father: {fileID: 255606558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &563546645
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: 0.01
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &577029670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,37 +3369,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.042142212, y: -0.08499485, z: -0.021408282}
     m_Extent: {x: 0.36219847, y: 0.22677061, z: 0.23062241}
   m_DirtyAABB: 0
---- !u!84 &634341313
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: CircleGate1 RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 1600
-  m_Height: 1200
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &652722123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3667,37 +3573,6 @@ Transform:
   m_Father: {fileID: 1176766097}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &749115425
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: CircleGate2 RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 1600
-  m_Height: 1200
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &760985335
 GameObject:
   m_ObjectHideFlags: 0
@@ -4086,6 +3961,40 @@ Transform:
   m_Father: {fileID: 542892565}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &845662619
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: -0.006
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &850615796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4401,7 +4310,11 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d9bdda283ad207e469936afdca6bd3a6, type: 2}
+      objectReference: {fileID: 2100000, guid: 35d20a284f4566e45adad54ca1086f62, type: 2}
+    - target: {fileID: 1735414698321250, guid: 16f8d3f5564e8d9419f62c06680a07b0, type: 2}
+      propertyPath: m_Name
+      value: Dark Blue Portal
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16f8d3f5564e8d9419f62c06680a07b0, type: 2}
   m_IsPrefabParent: 0
@@ -4492,40 +4405,6 @@ Transform:
   m_Father: {fileID: 1731294253}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 43.381, y: 19.789001, z: -41.431004}
---- !u!21 &902391610
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 634341313}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: -0.006
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &911459054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,7 +4674,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 149212616}
+  - {fileID: 214168584}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4936,37 +4815,6 @@ Transform:
   m_Father: {fileID: 1405643010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &967937188
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: CircleGate1 (1) RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 1600
-  m_Height: 1200
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &969418869
 GameObject:
   m_ObjectHideFlags: 0
@@ -5011,7 +4859,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1474937859}
+  - {fileID: 1063673557}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5326,37 +5174,6 @@ Transform:
   m_Father: {fileID: 343077648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1032172144
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: CircleGate2 (1) RenderTexture 0
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 1600
-  m_Height: 1200
-  m_AntiAliasing: 1
-  m_DepthFormat: 2
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1035368007
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5202,40 @@ Transform:
   m_Father: {fileID: 1737426983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1063673557
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: -0.006
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1084057051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6101,7 +5952,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1929917243}
+  - {fileID: 845662619}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6187,6 +6038,40 @@ Transform:
   m_Father: {fileID: 322410727}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1322387157
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: 0.01
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1352394949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6436,6 +6321,40 @@ Transform:
   m_Father: {fileID: 1521010832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1383706603
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: 0.01
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1396167784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6895,7 +6814,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1735414698321250, guid: 16f8d3f5564e8d9419f62c06680a07b0, type: 2}
       propertyPath: m_Name
-      value: Orange Portal (1)
+      value: Blue Portal
       objectReference: {fileID: 0}
     - target: {fileID: 23367688445436876, guid: 16f8d3f5564e8d9419f62c06680a07b0,
         type: 2}
@@ -6920,40 +6839,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4590021278117044, guid: 16f8d3f5564e8d9419f62c06680a07b0,
     type: 2}
   m_PrefabInternal: {fileID: 1449994259}
---- !u!21 &1459473119
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 967937188}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: 0.01
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1463726239
 GameObject:
   m_ObjectHideFlags: 0
@@ -7146,40 +7031,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.311551, y: -0.21842739, z: 0.08895441}
     m_Extent: {x: 0.30979207, y: 0.48104027, z: 0.2807155}
   m_DirtyAABB: 0
---- !u!21 &1474937859
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 967937188}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: -0.006
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1480453456
 GameObject:
   m_ObjectHideFlags: 0
@@ -7472,8 +7323,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 57634.617
-  field of view: 60.99908
+  far clip plane: 43422.137
+  field of view: 61.023445
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -7497,8 +7348,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1558052299}
-  m_LocalRotation: {x: 0.50575507, y: -0.7402147, z: -0.36581668, w: 0.2499445}
-  m_LocalPosition: {x: 14.660148, y: -4.7464094, z: 12.852771}
+  m_LocalRotation: {x: 0.45902488, y: -0.5551497, z: -0.5345534, w: 0.44199294}
+  m_LocalPosition: {x: 10.692044, y: -4.1455708, z: 4.7730203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1898356272}
@@ -7901,6 +7752,40 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.15311956, y: -0.112780645, z: 0.005781159}
     m_Extent: {x: 0.10364625, y: 0.1207429, z: 0.1254825}
   m_DirtyAABB: 0
+--- !u!21 &1600443271
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: -0.006
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1608218097
 GameObject:
   m_ObjectHideFlags: 0
@@ -9107,7 +8992,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 468543174}
+  - {fileID: 563546645}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9200,40 +9085,6 @@ MonoBehaviour:
   yAmplitude: 0.5
   zAmplitude: 0.5
   phase: 0
---- !u!21 &1929917243
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Gater/UV Remap
-  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _DistorsionPattern:
-        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 749115425}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _DistorsionPatternSpeedX: -0.05
-    - _DistorsionPatternSpeedY: -0.01
-    - _DistorsionPatternTiling: 1
-    - _DistortionStrength: -0.006
-    - _EnableDistorsionPattern: 1
-    m_Colors:
-    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1937226631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9402,7 +9253,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1459473119}
+  - {fileID: 1322387157}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9493,7 +9344,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 902391610}
+  - {fileID: 1600443271}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9659,7 +9510,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 85338943}
+  - {fileID: 2024855457}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9765,6 +9616,40 @@ Transform:
   m_Father: {fileID: 589408721}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &2024855457
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gater/UV Remap
+  m_Shader: {fileID: 4800000, guid: b680c2f39420847458548a216d96ce3a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionPattern:
+        m_Texture: {fileID: 2800000, guid: 9f030be176c10b749b538a039d572ff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistorsionPatternSpeedX: -0.05
+    - _DistorsionPatternSpeedY: -0.01
+    - _DistorsionPatternTiling: 1
+    - _DistortionStrength: 0.01
+    - _EnableDistorsionPattern: 1
+    m_Colors:
+    - _DistorsionPatternColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2029918027
 GameObject:
   m_ObjectHideFlags: 0
